@@ -1,0 +1,37 @@
+1. npm init
+2. npm i graphql express-graphql express axios
+3. npm i -D nodemon
+
+4. "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+   npm run server
+5. https://github.com/graphql/express-graphql
+6.https://github.com/r-spacex/SpaceX-API
+7.https://docs.spacexdata.com/?version=latest#bc65ba60-decf-4289-bb04-4ca9df01b9c1
+ endpoint :https://api.spacexdata.com/v3/launches
+
+8. git init
+9. git add
+10. touch .gitignore
+11. git add . && git commit -m 'Created GraphQL S
+erver'
+12. npx create-react-app client
+13. npm i concurrently // one single command run both frontend and backend
+14. "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+15. npm run dev
+16. https://bootswatch.com/ use Cyborg
+17. dealt with apollo :
+    https://www.apollographql.com/docs/react/v2.4/essentials/get-started/
+    npm install apollo-boost react-apollo graphql 
+18. before npm install,you have to cd to client folder
+19. cd.. to spaceX folder
+20. npm i cors
+30. npm i classname moment react-moment
+31. npm i react-router-dom
